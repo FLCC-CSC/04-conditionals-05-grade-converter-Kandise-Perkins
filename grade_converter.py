@@ -1,8 +1,8 @@
 # FILE NAME - grade_converter.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Kandise Perkins
+# DATE: October 6, 2025
+# BRIEF DESCRIPTION: convert a percentage grade into a letter value based on the users input.
 
 
 
@@ -14,23 +14,28 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
-
-print('===== Grade Converter =====')
+def main():
+   grade_converter()
+def grade_converter():
+  #start
+   print('===== Grade Converter =====')
 
 percent = int(input('Enter a numerical grade (1-100): '))
 
-if percent > 100:
-    print('A+')
-elif percent >= 90:
-    print('A')
-elif percent >= 80:
-    print('B')
-elif percent >= 70:
-    print('C')
-elif percent >= 65:
-    print('D')
-else:
-    print('F')
+   if percent > 100:
+      print('A+')
+   elif percent >= 90:
+      print('A')
+   elif percent >= 80:
+      print('B')
+   elif percent >= 70:
+      print('C')
+   elif percent >= 65:
+      print('D')
+   else:
+      print('F')
+
+main()
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
@@ -84,6 +89,7 @@ D
 
 1. What is something you would tell a future student to be careful about when
    doing this lab?
+Else statements cannot be constrained by a conidtion. You dont need 'grade >100:' which is why I made it a comment.
 
 
 
