@@ -24,13 +24,13 @@ percent = int(input('Enter a numerical grade (1-100): '))
 
 if percent > 100:
     print('A+')
-elif percent < 90:
+elif percent >= 90:
     print('A')
-elif percent < 80:
+elif percent >= 80:
     print('B')
-elif percent < 70:
+elif percent >= 70:
     print('C')
-elif percent < 65:
+elif percent >= 65:
     print('D')
 else:
     print('F')
